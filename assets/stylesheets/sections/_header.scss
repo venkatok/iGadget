@@ -1,0 +1,49 @@
+header.mw-header {
+	@include background(linear-gradient(top, $orange1, $orange2));
+	color: $white !important;	
+    .mw-icon{
+  		display:block;
+  		margin-right:$std-spacing2;
+  		float: right;
+  	}
+  	.mw-logo{
+	  	width:60%;
+	  	float:left;
+	  	h1{
+	  		padding:$std-spacing2;
+	  		a{
+	  			font-size: $content-size;
+				color:$white;
+	  		}
+	  	}
+	}
+	.mw-top{
+		width:40%;
+		float:right;
+		.First{
+			float:right;
+		}
+	}
+	.md-hd{
+		clear:both;
+		#SearchForm{
+			@include background(linear-gradient(top, $orange3, $orange2));
+		}
+	}
+	.mw-searchbox{
+
+	    margin: $std-spacing $zero-spacing $zero-spacing $std-spacing;
+	    padding: 6px;
+	    border-radius: $small-arrow-size;
+    }
+    .mw-searchicon{
+    	display:inline-block;
+	    vertical-align: middle;
+    }
+   .mw-header-menu{
+   		float: right;
+		margin: $std-spacing $zero-spacing;
+
+   }
+
+}

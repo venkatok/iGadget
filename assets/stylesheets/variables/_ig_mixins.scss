@@ -1,0 +1,12 @@
+@mixin arrow($border-color,$padding:0,$border-width: 4px){
+	padding: $padding;
+	border: solid $border-color;
+	width: 8px;
+	height: 8px;
+}
+@mixin right-arrow($border-color,$padding:0,$border-width: 4px){
+	@include arrow($border-color,$padding);
+	border-width: $border-width $border-width 0 0 ;
+	border-radius: $border-width 2px;
+	@include transform(rotate(45deg));
+}

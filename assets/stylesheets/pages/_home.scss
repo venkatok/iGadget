@@ -1,0 +1,31 @@
+.mw-home {
+	.Content{
+		margin: $std-spacing $std-spacing 0 $std-spacing;
+		h2 {
+			text-align: center;
+			margin:$std-spacing;
+			font-size:14px;
+		}
+	}
+	
+    .ProductList li {		
+		width: 137px!important;
+		margin: 6px 6px $std-spacing 7px;
+		padding: 8px;
+		overflow: hidden;
+		height: 250px!important;
+		background: $white1;			
+	}
+	.ProductImage {
+		background: $white;	
+		margin-bottom:	$small-spacing;
+	}
+	
+	.ProductPriceRating{
+		padding: $small-spacing $zero-spacing $std-spacing $zero-spacing;
+		em{
+			font-size: 9px;
+			color: $red;
+		}
+	}
+}

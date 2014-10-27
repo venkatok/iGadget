@@ -1,0 +1,110 @@
+ul{
+	list-style: none;
+	background: #FDFEDE;
+}
+a {
+  color: #4F4F4F;
+  text-decoration: none;
+  font-size: 12px;
+}
+.mw-left{
+	float:left;
+	margin-right:$small-spacing;
+
+}
+.mw-hide{
+	display: none !important;
+}
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.full-width{
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+
+body{
+	font-family: $sans-serif !important;
+	font-size: $content-size;
+	font-weight:300;
+}
+
+.grey-container{
+	padding: $std-spacing2;
+	background: $grey_background;
+	color: $white;	
+}
+.std-padding{
+	padding-top: $std-spacing;
+}
+.mw-bar1{
+	padding: $std-spacing2;
+	@include background(linear-gradient(top, $orange1, $orange2));
+	width: 100%;
+	display: block;
+	font-size:14px;
+	color: $white;	
+	&:after{
+		content: "+";
+		position: absolute;
+		right: $side-padding;
+	}
+	&[data-ur-state="enabled"]{
+		&:after{
+			content: "-";
+		}
+	}
+}
+.mw-bar2{
+	padding:  $std-spacing2;
+	width: 100%;
+	display: block;
+	border-bottom:1px solid $brown2;
+	font-size:12px;
+	font-weight: bold;
+	color:$brown2;
+	a{
+		color:$brown2;
+		display:block;
+		&:after{
+			content: "";
+			position: absolute;
+			right: $side-padding;
+			@include right-arrow($brown2, 0 , $small-arrow-size);
+			margin-top: $small-spacing;
+		}
+	}
+	
+}
+.mw-title-bar{
+	background: $brown2;
+	border: $brown2;
+	border-radius: $small-spacing;
+	color: $white;
+	font-weight: normal;
+}
+.ProductActionAdd{
+		margin-top: $std-spacing;
+		text-align:center;	
+		a{
+			padding: 5px;
+			@extend .mw-title-bar;
+			display: block;
+			height: 30px;
+			text-align: center;
+			padding-top: 8px;
+			width: 120px;
+			color: $white !important;
+		}
+}
+.ProductDetails{		
+		a{
+			color: #075899;
+		}
+	}

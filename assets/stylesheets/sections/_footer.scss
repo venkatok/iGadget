@@ -1,0 +1,15 @@
+.mw-footer {
+	@include background(linear-gradient(top, $orange1, $orange2));
+	font-size:14px;
+	color: $white;
+	text-align: center;
+	padding:$small-spacing;
+	p{
+		margin:$small-spacing;
+	}
+	.mw-power{
+		font-style:italic;
+		margin-top:$std-spacing2;
+	}
+
+}

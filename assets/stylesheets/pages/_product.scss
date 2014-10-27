@@ -1,0 +1,56 @@
+.mw-product{
+	.BlockContent {
+		h2{
+			margin: $std-spacing2  $std-spacing2 ;
+		}
+		p{
+			margin: 0px $std-spacing2 ;
+		}
+	}
+	.ProductTinyImageList{
+		ul{
+			li{
+				margin-right:2px;
+			}
+		}
+	}
+	.ProductThumb{
+		margin:$std-spacing2 $std-spacing2;
+		border:1px solid $grey_border_color;
+		width:100% !important;
+		height:300px;
+	}
+	.ProductMain{
+		margin:$std-spacing2 $std-spacing2;
+		background:$grey_background;
+		padding:$small-spacing;
+	}
+	.BulkDiscount{
+		padding:$small-spacing;
+	}
+	.ProductSectionSeparator{
+		margin-top:$std-spacing2;
+	}
+	#ProductReviews{
+		h3{
+			margin:$small-spacing $std-spacing2;
+		}
+		a{
+			display:none;
+		}
+		line-height: 25px;
+	}
+	.DetailRow{
+		clear:both;
+		margin:$small-spacing;
+	}
+	.ProductDescription{
+		margin:$small-spacing $std-spacing2;
+		line-height: 25px;
+	}
+	
+	hr{
+		display:none !important;
+	}
+
+}

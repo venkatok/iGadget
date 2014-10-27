@@ -1,0 +1,25 @@
+@import "globals/uranium";
+@import "globals/bourbon/bourbon";
+@import "globals/bourbon_fix";
+
+//Variables
+@import "variables/constants";
+@import "variables/fonts_colors";
+@import "variables/ig_mixins";
+
+// Import global base styles
+@import "globals/sprites";
+@import "globals/base";
+
+
+// Header & Footer
+@import "sections/header";
+@import "sections/footer";
+@import "sections/carousel";
+
+// Pages
+@import "pages/home";
+@import "pages/shop";
+@import "pages/brands";
+@import "pages/product";
+
